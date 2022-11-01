@@ -1,0 +1,19 @@
+{
+  "name": "constructors-called-twice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wds --node-resolve",
+    "test": "playwright install &&  playwright test --config=playwright.config.js --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.27.1",
+    "@web/dev-server": "^0.1.35"
+  },
+  "dependencies": {
+    "lit": "^2.4.0"
+  }
+}

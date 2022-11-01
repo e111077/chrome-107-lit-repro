@@ -1,0 +1,6 @@
+## Reproduction
+
+- `npm i`
+- `npm test`
+- step forward once in the playwright debugger
+- refresh several times until you the text does not render (race condition?)
